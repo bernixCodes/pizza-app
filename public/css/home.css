@@ -10,7 +10,7 @@
 body{
     font-family: 'Lato', sans-serif;
     color: var(--dark);
-    height: 4000px;
+    /* height: 4000px; */
 }
 
 nav li:last-child a{
@@ -46,4 +46,27 @@ section.hero{
     background: var(--primary);
     border: var(--pure);
     color: var(--pure);
+}
+
+.btn-primary{
+    background: var(--primary);
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover{
+    background: var(--primary-hover);
+}
+
+section.cart{
+    background: var(--secondary);
+}
+
+.amount{
+    color: var(--primary);
+}
+
+
+section.login{
+    background: var(--secondary);
+    min-height: calc(100vh - 86px);
 }
